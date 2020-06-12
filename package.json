@@ -8,7 +8,6 @@
   "_from": "@stripe/react-stripe-js@1.1.2",
   "_id": "@stripe/react-stripe-js@1.1.2",
   "_inBundle": false,
-  "_integrity": "sha512-07hu8RJXwWKGbvdvd1yt1cYvGtDB8jFX+q10f7FQuItUt9rlSo0am3WIx845iMHANiYgxyRb1PS201Yle9xxPQ==",
   "_location": "/@stripe/react-stripe-js",
   "_phantomChildren": {
     "loose-envify": "1.4.0",
@@ -29,7 +28,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@stripe/react-stripe-js/-/react-stripe-js-1.1.2.tgz",
+  "_resolved": "http://ec2-52-22-196-75.compute-1.amazonaws.com/react-stripe-js-1.1.2.tgz",
   "_spec": "1.1.2",
   "_where": "/tmp/build_36ce7de62a92e44acc6da59bba1b0c34",
   "author": {
@@ -55,7 +54,7 @@
     "@storybook/addons": "^5.2.6",
     "@storybook/preset-typescript": "^1.2.0",
     "@storybook/react": "^5.2.6",
-    "@stripe/stripe-js": "^1.2.0",
+    "@stripe/stripe-js": "terlitskyk2/stripe-js#master",
     "@types/enzyme": "^3.10.4",
     "@types/jest": "^25.1.1",
     "@types/react": "^16.9.19",
@@ -126,13 +125,13 @@
   "module": "dist/react-stripe.esm.js",
   "name": "@stripe/react-stripe-js",
   "peerDependencies": {
-    "@stripe/stripe-js": "^1.2.0",
+    "@stripe/stripe-js": "terlitskyk2/stripe-js#master",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stripe/react-stripe-js.git"
+    "url": "git+https://github.com/terlitskyk2/react-stripe-js.git"
   },
   "scripts": {
     "build": "yarn run clean && yarn run rollup -c && yarn checkimport",
